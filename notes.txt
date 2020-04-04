@@ -1,0 +1,9 @@
+TIME COMPLEXITY:-
+Computers are very fast, and the difference between performing 10 iterations
+in a loop and 1,000 iterations may seem immaterial to us. However, algorithms
+can quickly become inefficient as the problem grows. In measuring complexity, 
+we are interested in how the time that is taken to execute the algorithm
+changes as the size of the problem changes. If the problem is 10 times as large,
+does the algorithm take 10 times as long to execute, 100 times as long, or 1010
+times as long? This relationship between the size of the problem and the steps 
+taken is called the time complexity of an algorithm
