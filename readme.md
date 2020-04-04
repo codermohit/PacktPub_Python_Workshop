@@ -1,1 +1,1 @@
-The place where chapter 3 starts refer to the Python chapter 3 folder
+This repository was made to store my code that I wrote while learning python. You need to refer to notes.ipynb file and in that I have specified when to use other files. Notes.ipynb is the main python code containing while the rest were used as modules and scripts.
