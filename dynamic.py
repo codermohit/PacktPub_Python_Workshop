@@ -1,3 +1,4 @@
+import time #Importing time module to calculate time taken to execute the code
 stored_results = {}
 def sum_to_n(n):
     result = 0
@@ -8,6 +9,7 @@ def sum_to_n(n):
 
 stored_results = {}
 def sum_to_n(n):
+    start_time= time.perf_counter() #It notes the tiem at the start of execution
     result = 0
     for i in reversed(range(n)):
         if i + 1 in stored_results:
@@ -17,7 +19,8 @@ def sum_to_n(n):
         else:
             result += i + 1
     stored_results[n] = result
+    #Writinng code to find the time taken by subrating it from time at the end
+    print(time.perf_counter() - start_time, "seconds")
     print(result)
 
 sum_to_n(5)
-sum_to_n(6)
